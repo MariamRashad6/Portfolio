@@ -24,6 +24,11 @@ background-color: #fff;
     border-color: var(--accent-color);
 }
 
+.secondary-btn {
+    color: white;
+    border-color: var(--accent-color);
+}
+
 .primary-btn:hover {
     background-color: white;
     color: var(--accent-color);
@@ -34,6 +39,25 @@ background-color: #fff;
     font-size: var(--font-size-large);
     color: var(--navy-blue);
 }
+
+/* Nav Bar */
+.navbar-brand {
+    color: var(--navy-blue);
+}
+.nav-link {
+    color: var(--navy-blue);
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+}
+.nav-link.active {
+    color: var(--accent-color)!important; 
+    font-weight: 600;
+}
+  
+
+
 
 /* Hero Section */
 #hero {
@@ -172,7 +196,6 @@ transform: scale(1.05);
 color: var(--accent-color);
 }
 
-
 .custom-arrow {
 width: 32px;
 height: 32px;
@@ -205,8 +228,7 @@ opacity: 1;
 background-color: #ddd;
 }
 
-
-
+/* Footer */
 footer {
 background-color: #333;
 }
@@ -215,6 +237,7 @@ footer p {
 color: #fff;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
 #hero h1 {
 font-size: var(--font-size-large);
@@ -225,6 +248,4 @@ margin: 0 auto;
 #services .card-body {
 font-size: var(--font-size-medium);
 }
-
-
 }
