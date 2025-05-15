@@ -6,3 +6,8 @@ You can view the live portfolio here:
 ![Portfolio Preview](images/cover.png)
 
 ---
+## Technologies Used
+HTML5
+CSS3
+Bootstrap 5
+JavaScript (Vanilla)
